@@ -104,22 +104,32 @@ encuentro mi lugar perfecto.
         </div>
     </details>
  <p style="margin-top: 50px; font-size: 0.8em; color: #2563eb;">Hecho con ❤️ para Azu</p>
-<!-- BOTON MUSICA -->
-<button onclick="document.getElementById('musica').play()" 
+<button onclick="mostrarMusica()" 
 style="margin-top:20px; padding:10px; border:none; border-radius:8px; background:#2563eb; color:white;">
 🎵 Reproducir música
 </button>
 
-<!-- AUDIO -->
-<audio id="musica" loop>
-    <source src="musica.mp3" type="audio/mpeg">
-</audio>
+<div id="musicaYT" style="display:none; margin-top:15px;">
+<iframe width="300" height="170"
+src="https://www.youtube.com/embed/ID_DEL_VIDEO?autoplay=1"
+frameborder="0"
+allow="autoplay"
+allowfullscreen>
+</iframe>
+</div>
+
+<script>
+function mostrarMusica(){
+    document.getElementById("musicaYT").style.display = "block";
+}
+</script>
 
 
 
 </body>
 
 </html>
+
 
 
 
