@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Sandra ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+  <main class="card">
+    <div class="sparkle">✦</div>
+    <p class="eyebrow">UN MENSAJE PARA ALGUIEN ESPECIAL</p>
+    <h1>Para Sandra <span>♡</span></h1>
+    <p class="intro">Hay algo que llevo un tiempo queriendo decirte...</p>
+    <button class="envelope" id="openLetter" aria-label="Abrir la carta">
+      <span class="flap"></span><span class="letter-icon">💌</span><span class="tap">Toca para abrir</span>
+    </button>
+    <section class="letter hidden" id="letter">
+      <p>Hola, Sandra. ❤️</p>
+      <p>Antes de que termine la escuela quería decirte algo.</p>
+      <p>La verdad, me gusta mucho tu forma de ser, tu personalidad, tus ojos, tu mirada y esos pequeños detalles que te hacen ser tú.</p>
+      <p>Me gusta hablar contigo, compartir momentos, reírnos y conocerte cada día un poquito más.</p>
+      <p>No sé qué pasará después de terminar la escuela, pero sí me gustaría que siguiéramos hablando y que pudiéramos conocernos mucho más.</p>
+      <p class="big-question">No quiero apresurar nada ni hacerte sentir incómoda. Simplemente quiero que sepas que eres alguien especial para mí. ❤️</p>
+      <div class="answers">
+        <button id="yesBtn">Me gustaría ❤️</button>
+        <button id="thinkBtn" class="secondary">Quiero pensarlo 🌷</button>
+      </div>
+      <p id="reply" class="reply" aria-live="polite"></p>
+    </section>
+    <footer>Hecho con cariño ♡</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
